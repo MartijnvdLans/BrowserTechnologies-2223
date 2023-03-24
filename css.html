@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquete Minor Webdevelopment</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <form action="POST">
+            <fieldset id="css">
+                <legend>CSS to the Rescue</legend>
+                <div class="group">
+                    <label for="docenten-1">Naam Docent 1</label>
+                    <select name="docenten-1" id="docenten-1">
+                        <option value="karin-1">Karin Martin</option>
+                        <option value="brit-1">Brit Wijnmaalen</option>
+                        <option value="sanne-1" selected>Sanne 't Hooft</option>
+                        <option value="robert-1">Robert Spier</option>
+                        <option value="declan-1">Declan Rek</option>
+                        <option value="janno-1">Janno Kapritsias</option>
+                        <option value="vasilis-1">Vasilis van Gemert</option>
+                        <option value="eric-1">Eric Groot Kormelink</option>
+                        <option value="justus-1">Justus Sturkenboom</option>
+                        <option value="joost-1">Joost Faber</option>
+                        <option value="koop-1">Koop Reynders</option>
+                        <option value="peter-1">Peter-Paul Koch</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label for="docenten-2">Naam Docent 2</label>
+                    <select name="docenten-2" id="docenten-2">
+                        <option value="karin-2">Karin Martin</option>
+                        <option value="brit-2">Brit Wijnmaalen</option>
+                        <option value="sanne-2">Sanne 't Hooft</option>
+                        <option value="robert-2">Robert Spier</option>
+                        <option value="declan-2">Declan Rek</option>
+                        <option value="janno-2">Janno Kapritsias</option>
+                        <option value="vasilis-2" selected>Vasilis van Gemert</option>
+                        <option value="eric-2">Eric Groot Kormelink</option>
+                        <option value="justus-2">Justus Sturkenboom</option>
+                        <option value="joost-2">Joost Faber</option>
+                        <option value="koop-2">Koop Reynders</option>
+                        <option value="peter-2">Peter-Paul Koch</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <label for="beginDatum">Weken waarin je het vak hebt gehad. periode van:</label>
+                    <input type="date" id="beginDatum" required>
+                </div>
+                <div class="group">
+                    <label for="eindDatum">Weken waarin je het vak hebt gehad. periode tot:</label>
+                    <input type="date" id="eindDatum" required>
+                </div>
+                <p>In de volgende sectie vragen we je cijfers te geven op basis van de lessen</p>
+                <label for="">Hoe tevreden was je met de lesstof?</label>
+                <div class="group">
+                    <input name="grade" id="lesstof-1" class="lesstof-1" type="radio">
+                    <label for="lesstof-1">1</label>
+                    <input name="grade" id="lesstof-2" class="lesstof-2" type="radio">
+                    <label for="lesstof-2">2</label>
+                    <input name="grade" id="lesstof-3" class="lesstof-3" type="radio">
+                    <label for="lesstof-3">3</label>
+                    <input name="grade" id="lesstof-4" class="lesstof-4" type="radio">
+                    <label for="lesstof-4">4</label>
+                    <input name="grade" id="lesstof-5" class="lesstof-5" type="radio">
+                    <label for="lesstof-5">5</label>
+                    <input name="grade" id="lesstof-6" class="lesstof-6" type="radio">
+                    <label for="lesstof-6">6</label>
+                    <input name="grade" id="lesstof-7" class="lesstof-7" type="radio">
+                    <label for="lesstof-7">7</label>
+                    <input name="grade" id="lesstof-8" class="lesstof-8" type="radio">
+                    <label for="lesstof-8">8</label>
+                    <input name="grade" id="lesstof-9" class="lesstof-9" type="radio">
+                    <label for="lesstof-9">9</label>
+                    <input name="grade" id="lesstof-10" class="lesstof-10" type="radio">
+                    <label for="lesstof-10">10</label>
+                </div>
+                <label for="">Hoe goed vond je de uitleg tijdens dit vak?</label>
+                <div class="group">
+                    <input name="grade" id="uitleg-1" class="uitleg-1" type="radio">
+                    <label for="uitleg-1">1</label>
+                    <input name="grade" id="uitleg-2" class="uitleg-2" type="radio">
+                    <label for="uitleg-2">2</label>
+                    <input name="grade" id="uitleg-3" class="uitleg-3" type="radio">
+                    <label for="uitleg-3">3</label>
+                    <input name="grade" id="uitleg-4" class="uitleg-4" type="radio">
+                    <label for="uitleg-4">4</label>
+                    <input name="grade" id="uitleg-5" class="uitleg-5" type="radio">
+                    <label for="uitleg-5">5</label>
+                    <input name="grade" id="uitleg-6" class="uitleg-6" type="radio">
+                    <label for="uitleg-6">6</label>
+                    <input name="grade" id="uitleg-7" class="uitleg-7" type="radio">
+                    <label for="uitleg-7">7</label>
+                    <input name="grade" id="uitleg-8" class="uitleg-8" type="radio">
+                    <label for="uitleg-8">8</label>
+                    <input name="grade" id="uitleg-9" class="uitleg-9" type="radio">
+                    <label for="uitleg-9">9</label>
+                    <input name="grade" id="uitleg-10" class="uitleg-10" type="radio">
+                    <label for="uitleg-10">10</label>
+                </div>
+                <label for="">Eigen inzicht</label>
+                <div class="group">
+                    <input name="grade" id="inzicht-1" class="inzicht-1" type="radio">
+                    <label for="inzicht-1">1</label>
+                    <input name="grade" id="inzicht-2" class="inzicht-2" type="radio">
+                    <label for="inzicht-2">2</label>
+                    <input name="grade" id="inzicht-3" class="inzicht-3" type="radio">
+                    <label for="inzicht-3">3</label>
+                    <input name="grade" id="inzicht-4" class="inzicht-4" type="radio">
+                    <label for="inzicht-4">4</label>
+                    <input name="grade" id="inzicht-5" class="inzicht-5" type="radio">
+                    <label for="inzicht-5">5</label>
+                    <input name="grade" id="inzicht-6" class="inzicht-6" type="radio">
+                    <label for="inzicht-6">6</label>
+                    <input name="grade" id="inzicht-7" class="inzicht-7" type="radio">
+                    <label for="inzicht-7">7</label>
+                    <input name="grade" id="inzicht-8" class="inzicht-8" type="radio">
+                    <label for="inzicht-8">8</label>
+                    <input name="grade" id="inzicht-9" class="inzicht-9" type="radio">
+                    <label for="inzicht-9">9</label>
+                    <input name="grade" id="inzicht-10" class="inzicht-10" type="radio">
+                    <label for="inzicht-10">10</label>
+                </div>
+                <button type="submit">Volgende</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

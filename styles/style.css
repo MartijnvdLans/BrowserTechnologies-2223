@@ -1,0 +1,151 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: yellow;
+}
+
+main {
+    padding: 1em;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+}
+
+fieldset {
+    padding: .5em;
+}
+
+img {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 900px;
+    margin: 2em auto;
+    display: block;
+}
+
+fieldset {
+    background-color: yellow;
+    border: 6px solid #000;
+    border-radius: 1em;
+    padding: 3em;
+}
+
+legend {
+    color: yellow;
+    background-color: #000;
+    border: 4px solid yellow;
+    border-radius: .5em;
+    padding: .5em 2em;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.group-radio {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group-radio input {
+    width: 0;
+    height: 0;
+
+}
+
+.group-radio label {
+    background-color: #000;
+    color: yellow;
+    width: 2em;
+    height: 2em;
+    border: 2px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.group-radio label:hover, .group-radio input:checked + label, .group-radio input:focus + label {
+    background-color: yellow;
+    color: #000;
+    cursor: pointer;
+} 
+
+button {
+    padding: .5em 2em;
+    background-color: yellow;
+    border: 2px solid #000;
+    border-radius: .5em;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    margin: 1em auto -2em auto;
+}
+
+input {
+    padding: 1em;
+    margin-top: .3em;
+    border: 3px solid;
+}
+
+input:not(:placeholder-shown) {
+    border-color: green;
+  }
+  
+input:placeholder-shown {
+    border-color: #ccc;
+}
+
+select {
+    padding: 1em;
+    margin-top: .3em;
+    border: 3px solid;
+}
+
+select:not(:placeholder-shown) {
+    border-color: green;
+  }
+  
+select:placeholder-shown {
+    border-color: red;
+}
+  
+
+button:hover {
+    background-color: #000;
+    color: yellow;
+    cursor: pointer;
+}
+
+/* END */
+
+section {
+    max-width: 700px;
+    border-radius: .5em;
+    margin: 0 auto;
+    padding: 1em;
+    margin-top: 4em;
+}
+
+section p {
+    text-align: center;
+    margin-top: 1em;
+}

@@ -67,7 +67,7 @@ legend {
 }
 
 .group-radio {
-    padding: 1em;
+    margin: 1em 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -81,6 +81,8 @@ legend {
 .group-radio label {
     background-color: #000;
     color: yellow;
+    font-size: 28px;
+    line-height: 53px;
     width: 2em;
     height: 2em;
     border: 2px solid #000;
@@ -111,11 +113,21 @@ input {
     border: 3px solid;
 }
 
-input:not(:placeholder-shown) {
+input[type="text"]:not(:placeholder-shown) {
     border-color: green;
+    color: green;
   }
   
 input:placeholder-shown {
+    border-color: #ccc;
+}
+
+input[type="email"]:valid {
+    color: green;
+    border-color: green;
+}
+
+input[type="email"]:not(:valid) {
     border-color: #ccc;
 }
 
@@ -127,10 +139,24 @@ select {
 
 select:not(:placeholder-shown) {
     border-color: green;
+    color: green;
   }
   
 select:placeholder-shown {
-    border-color: red;
+    border-color: #ccc;
+}
+
+input[type="date"] {
+    border-color: #ccc;
+}
+
+input[type="date"]:valid {
+    border-color: green;
+    color: green;
+}
+
+input[type="date"]:not(:valid) {
+    border-color: #ccc!;
 }
   
 
@@ -159,9 +185,11 @@ section p {
 
 .progress {
     display: flex;
+    flex-wrap: nowrap;
     margin: 2em auto 0 auto;
     max-width: 25em;
     position: relative;
+    justify-content: center;
 }
 
 .progress div {
@@ -177,7 +205,7 @@ section p {
 
 .bar {
     height: 2px!important;
-    width: 21em!important;
+    width: 85%!important;
     border-radius: 0!important;
     margin: 0!important;
     position: absolute;
@@ -192,3 +220,80 @@ section p {
     margin: 0 1em 0 1em!important;
     background-color: #000!important;
 }
+
+.done {
+    background-color: green!important;
+}
+
+.almost-done {
+    background-color: orange!important;
+}
+
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+    body, main {
+        background-color: #000;
+    }
+
+    img {
+        filter: drop-shadow(0px 0px 3px yellow);
+    }
+
+    h1, h2, h2, p {
+        color: yellow;
+    }
+
+    fieldset {
+        background-color: #000;
+        border-color: yellow;
+    }
+
+    label {
+        color: yellow;
+    }
+
+    .group-radio label {
+        border-color: yellow;
+    }
+
+    button {
+        background-color: #000;
+        border-color: yellow;
+        color: yellow;
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: #000;
+    }
+
+    .progress div {
+        background-color: #000;
+        border-color: yellow;
+    }
+
+    .active-page {
+        background-color: yellow!important;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    fieldset {
+        padding: .5em;
+    }
+
+    .group-radio {
+        /* display: flex; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .group-radio label {
+        font-size: 28px;
+        line-height: 53px;
+        flex: 1 1 auto;
+    }
+  }

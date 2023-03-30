@@ -13,29 +13,29 @@
     <main>
         <img src="./img/cmd_icon_pencils.png" alt="Pencils">
         <h1>Enquete Minor Webdevelopment</h1>
-        <h2>2/6</h2>
+        <h2>4/6</h2>
         <div class="progress">
             <a href="./wafs.html"><div class="done">1</div></a>
-            <div class="active-page">2</div>
-            <div>3</div>
-            <div>4</div>
+            <a href="./css.html"><div class="done">2</div></a>
+            <a href="./pwa.html"><div class="almost-done">3</div></a>
+            <div class="active-page">4</div>
             <div>5</div>
             <div>6</div>
             <div class="bar"></div>
         </div>
-        <form action="./pwa.html" method="GET">
+        <form action="./hcd.html" method="GET">
             <fieldset id="css">
-                <legend>CSS to the Rescue</legend>
+                <legend>Browser Technologies</legend>
                 <div class="group">
                     <label for="docenten-1">Naam Docent 1</label>
                     <select name="docenten-1" id="docenten-1" required>
                         <option value="karin-1">Karin Martin</option>
                         <option value="brit-1">Brit Wijnmaalen</option>
-                        <option value="sanne-1" selected>Sanne 't Hooft</option>
+                        <option value="sanne-1">Sanne 't Hooft</option>
                         <option value="robert-1">Robert Spier</option>
                         <option value="declan-1">Declan Rek</option>
                         <option value="janno-1">Janno Kapritsias</option>
-                        <option value="vasilis-1">Vasilis van Gemert</option>
+                        <option value="vasilis-1" selected>Vasilis van Gemert</option>
                         <option value="eric-1">Eric Groot Kormelink</option>
                         <option value="justus-1">Justus Sturkenboom</option>
                         <option value="joost-1">Joost Faber</option>
@@ -52,21 +52,21 @@
                         <option value="robert-2">Robert Spier</option>
                         <option value="declan-2">Declan Rek</option>
                         <option value="janno-2">Janno Kapritsias</option>
-                        <option value="vasilis-2" selected>Vasilis van Gemert</option>
+                        <option value="vasilis-2">Vasilis van Gemert</option>
                         <option value="eric-2">Eric Groot Kormelink</option>
                         <option value="justus-2">Justus Sturkenboom</option>
                         <option value="joost-2">Joost Faber</option>
                         <option value="koop-2">Koop Reynders</option>
-                        <option value="peter-2">Peter-Paul Koch</option>
+                        <option value="peter-2" selected>Peter-Paul Koch</option>
                     </select>
                 </div>
                 <div class="group">
                     <label for="beginDatum">Weken waarin je het vak hebt gehad. periode van:</label>
-                    <input type="date" id="beginDatum" required>
+                    <input type="date" id="beginDatum" value="2023-03-20" required>
                 </div>
                 <div class="group">
                     <label for="eindDatum">Weken waarin je het vak hebt gehad. periode tot:</label>
-                    <input type="date" id="eindDatum" required>
+                    <input type="date" id="eindDatum" value="2023-04-06" required>
                 </div>
                 <p>In de volgende sectie vragen we je cijfers te geven op basis van de lessen</p>
                 <label for="">Hoe tevreden was je met de lesstof?</label>
@@ -85,7 +85,7 @@
                     <label for="lesstof-6">6</label>
                     <input name="grade-1" id="lesstof-7" class="lesstof-7" type="radio">
                     <label for="lesstof-7">7</label>
-                    <input name="grade-1" id="lesstof-8" class="lesstof-8" type="radio">
+                    <input name="grade-1" id="lesstof-8" class="lesstof-8" type="radio" checked>
                     <label for="lesstof-8">8</label>
                     <input name="grade-1" id="lesstof-9" class="lesstof-9" type="radio">
                     <label for="lesstof-9">9</label>

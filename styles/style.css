@@ -201,6 +201,13 @@ section p {
     border: 2px solid #000;
     background-color: yellow;
     z-index: 1;
+    text-align: center;
+    line-height: 30px;
+}
+
+.progress a {
+    color: #000;
+    text-decoration: none;
 }
 
 .bar {
@@ -211,7 +218,7 @@ section p {
     position: absolute;
     left: 1.5em;
     top: 1.5em;
-    z-index: 0!important;
+    z-index: -1!important;
 }
 
 .active-page {
@@ -219,14 +226,18 @@ section p {
     height: 3em!important;
     margin: 0 1em 0 1em!important;
     background-color: #000!important;
+    color: #fff!important;
+    line-height: 45px!important;
 }
 
 .done {
     background-color: green!important;
+    color: #fff!important;
 }
 
 .almost-done {
     background-color: orange!important;
+    color: #fff!important;
 }
 
 
@@ -272,6 +283,10 @@ section p {
     .progress div {
         background-color: #000;
         border-color: yellow;
+    }
+
+    .progress a {
+        z-index: 2;
     }
 
     .active-page {

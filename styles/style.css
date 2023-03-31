@@ -296,7 +296,7 @@ section p {
         color: #000!important;
     }
 
-    .bar {
+    .progress .bar {
         background-color: yellow!important;
     }
   }

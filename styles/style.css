@@ -75,6 +75,7 @@ legend {
 .group-radio input {
     width: 0;
     height: 0;
+    display: none;
 
 }
 
@@ -283,6 +284,7 @@ section p {
     .progress div {
         background-color: #000;
         border-color: yellow;
+        color: #fff;
     }
 
     .progress a {
@@ -290,6 +292,11 @@ section p {
     }
 
     .active-page {
+        background-color: yellow!important;
+        color: #000!important;
+    }
+
+    .bar {
         background-color: yellow!important;
     }
   }

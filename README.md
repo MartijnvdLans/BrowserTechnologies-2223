@@ -27,4 +27,28 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 * Firefox (Desktop)
 * Obscure Browser: UC Browser (telefoon + desktop)
 
-FIX RADIO BUTTONS!!
+## Live demo
+
+Je kunt de applicatie testen op: https://martijnvdlans.github.io/BrowserTechnologies-2223/
+
+## Testverslag
+
+TBA
+
+## Progressive Enhancement
+
+TBA
+
+### HTML
+
+### HTML + CSS
+
+### HTML + CSS + JAVASCRIPT
+
+## Athor
+
+Martijn van der Lans
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

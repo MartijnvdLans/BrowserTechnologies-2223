@@ -41,9 +41,15 @@ TBA
 
 ### HTML
 
+<img src="./Docs-Wiki/html.png" WIDTH="100%">
+
 ### HTML + CSS
 
+<img src="./Docs-Wiki/html_css.png" WIDTH="100%">
+
 ### HTML + CSS + JAVASCRIPT
+
+Voor dit project heb ik geen Javascript gebruikt.
 
 ## Athor
 

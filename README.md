@@ -69,7 +69,7 @@ Menu -> Instellingen -> Labs -> Donker thema website gebruiken
 
 Op deze manier kun je de dark mode zien zoals de ontwikkelaars dit hebben bedoeld.
 
-#### UC Browser [CHECK OF WERKT]
+#### UC Browser
 
 UC Browser bleek geen Dark Mode te ondersteunen dus ik heb even gezocht. Snel bleek dat UC hun eigen versie had van Dark Mode
 
@@ -85,11 +85,15 @@ Op de telefoon was dit hetzelfde. Je hebt de optie om bij menu -> Night aan te z
 
 ### HTML
 
+Wanneer de HTML alleen te zien is werkt de website nog naar behoren. Het ziet er misschien niet helemaal fijn uit om naar te kijken, maar het werkt perfect.
+
 <kbd>
 <img src="./Docs-Wiki/html.png" WIDTH="100%" style= "border: 1px solid #000;">
 </kbd>
 
 ### HTML + CSS
+
+Met CSS aan werkt de website helemaal naar behoren. Het ziet er dan meteen ook mooi uit en functioneerd zoals het bedoeld was.
 
 <kbd>
 <img src="./Docs-Wiki/html_css.png" WIDTH="100%" style= "border: 1px solid #000;">
@@ -97,7 +101,7 @@ Op de telefoon was dit hetzelfde. Je hebt de optie om bij menu -> Night aan te z
 
 ### HTML + CSS + JAVASCRIPT
 
-Voor dit project heb ik geen Javascript gebruikt.
+Voor dit project heb ik geen Javascript gebruikt, omdat de validatie die ik nodig had voldoende was met CSS.
 
 ## Author
 

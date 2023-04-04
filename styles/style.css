@@ -136,6 +136,7 @@ input[type="email"]:not(:valid) {
 input[type="radio"] {
     width: 0;
     height: 0;
+    opacity: 0;
 }
 
 select {

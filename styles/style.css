@@ -352,3 +352,13 @@ section p {
         display: none;
     }
   }
+
+  .error {
+    color: red;
+    width: 100%;
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+    border: 3px solid red;
+    font-weight: bold;
+  }

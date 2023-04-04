@@ -132,6 +132,12 @@ input[type="email"]:not(:valid) {
     border-color: #ccc;
 }
 
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
 select {
     padding: 1em;
     margin-top: .3em;

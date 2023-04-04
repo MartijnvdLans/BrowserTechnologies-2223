@@ -85,11 +85,15 @@ Op de telefoon was dit hetzelfde. Je hebt de optie om bij menu -> Night aan te z
 
 ### HTML
 
+<kbd>
 <img src="./Docs-Wiki/html.png" WIDTH="100%" style= "border: 1px solid #000;">
+</kbd>
 
 ### HTML + CSS
 
+<kbd>
 <img src="./Docs-Wiki/html_css.png" WIDTH="100%" style= "border: 1px solid #000;">
+</kbd>
 
 ### HTML + CSS + JAVASCRIPT
 

@@ -2,6 +2,8 @@
 
 ## Over de Minor Enquette
 
+Voor het vak Browser Technologies heb ik een website gemaakt waar je enquette kan invullen over de Minor. Deze werkt in behoorlijk veek browers.
+
 ## User Story
 
 Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
@@ -67,7 +69,7 @@ Menu -> Instellingen -> Labs -> Donker thema website gebruiken
 
 Op deze manier kun je de dark mode zien zoals de ontwikkelaars dit hebben bedoeld.
 
-#### UC Browser 
+#### UC Browser [CHECK OF WERKT]
 
 UC Browser bleek geen Dark Mode te ondersteunen dus ik heb even gezocht. Snel bleek dat UC hun eigen versie had van Dark Mode
 
@@ -81,15 +83,13 @@ Op de telefoon was dit hetzelfde. Je hebt de optie om bij menu -> Night aan te z
 
 ## Progressive Enhancement
 
-TBA
-
 ### HTML
 
-<img src="./Docs-Wiki/html.png" WIDTH="100%">
+<img src="./Docs-Wiki/html.png" WIDTH="100%" style= "border: 1px solid #000;">
 
 ### HTML + CSS
 
-<img src="./Docs-Wiki/html_css.png" WIDTH="100%">
+<img src="./Docs-Wiki/html_css.png" WIDTH="100%" style= "border: 1px solid #000;">
 
 ### HTML + CSS + JAVASCRIPT
 

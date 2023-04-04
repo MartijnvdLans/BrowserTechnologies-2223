@@ -22,4 +22,9 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 * Google Chrome (telefoon + Desktop)
 * Safari (telefoon + Desktop)
 * Samsung Internet (telefoon)
+* Microsoft Edge
+* Opera (Desktop)
+* Firefox (Desktop)
 * Obscure Browser: UC Browser (telefoon + desktop)
+
+FIX RADIO BUTTONS!!

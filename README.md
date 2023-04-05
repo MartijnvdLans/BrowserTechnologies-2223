@@ -26,7 +26,6 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 * Samsung Internet (telefoon)
 * Microsoft Edge
 * Opera (Desktop)
-* Firefox (Desktop)
 * Obscure Browser: UC Browser (telefoon + desktop)
 
 ## Live demo
@@ -71,7 +70,7 @@ Op deze manier kun je de dark mode zien zoals de ontwikkelaars dit hebben bedoel
 
 #### UC Browser
 
-UC Browser bleek geen Dark Mode te ondersteunen dus ik heb even gezocht. Snel bleek dat UC hun eigen versie had van Dark Mode
+UC Browser bleek geen Dark Mode te ondersteunen dus ik heb even gezocht. Snel bleek dat UC hun eigen versie had van Dark Mode. Je dark mode tag was ook niet zichtbaar in de dev tools en niet aanpasbaar naar een eigen style.
 
 ##### Desktop
 
@@ -80,6 +79,10 @@ Op de desktop heb je rechts onder in de venster een maantje staan. Met deze kun 
 ##### Phone
 
 Op de telefoon was dit hetzelfde. Je hebt de optie om bij menu -> Night aan te zetten. Dit is wederom hun eigen versie er van en niet aan te passen in je eigen code.
+
+### Screen Reader
+
+Bij het testen van de screen reader werkte het om van knop naar knop te gaan. Het enige wat de screen reader niet pakt is de text zonder label wat ik wel raar vond. Na het testen op verschillende pagina's lag dit eerder aan de screenreader, die alleen naar de knoppen gaat. Als je op de text klikt dant leest de screen reader het namelijk wel op.
 
 ## Progressive Enhancement
 
